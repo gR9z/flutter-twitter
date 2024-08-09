@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:twitterlike/app-theme.dart';
-import 'package:twitterlike/app-validator.dart';
-import 'package:twitterlike/auth-context.dart';
+import 'package:twitterlike/auth/auth-context.dart';
+import 'package:twitterlike/common/app-theme.dart';
+import 'package:twitterlike/common/app-validator.dart';
 import 'package:twitterlike/main.dart';
 import 'dart:convert' as convert;
 import 'package:http/http.dart' as http;

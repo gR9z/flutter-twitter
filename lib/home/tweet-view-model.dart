@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:sn_progress_dialog/progress_dialog.dart';
 import 'dart:convert' as convert;
 import 'package:http/http.dart' as http;
-import 'package:twitterlike/auth-context.dart';
-import 'package:twitterlike/tweet.dart';
+import 'package:twitterlike/auth/auth-context.dart';
+import 'package:twitterlike/home/tweet.dart';
+
 
 class TweetViewModel with ChangeNotifier {
   static const allComments = "http://localhost:3000/v2/comment/all";

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'main.dart';
+import '../main.dart';
 
 Widget navbarIcon(IconData icon) {
   return IconButton(

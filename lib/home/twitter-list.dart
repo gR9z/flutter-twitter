@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:twitterlike/footer.dart';
-import 'package:twitterlike/login.dart';
-import 'package:twitterlike/tweet-view-model.dart';
+import 'package:twitterlike/auth/login.dart';
+import 'package:twitterlike/common/footer.dart';
+import 'package:twitterlike/home/tweet-view-model.dart';
 
-import 'main.dart';
+import '../main.dart';
 
 Widget makeIconButton(String imageUrl) {
   return IconButton(onPressed: () {}, icon: Image.asset(imageUrl, width: 28));

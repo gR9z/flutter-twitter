@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:twitterlike/twitter-list.dart';
-import 'package:twitterlike/login.dart';
+import 'package:twitterlike/auth/login.dart';
+import 'package:twitterlike/home/twitter-list.dart';
 
 const primaryBGColor = Color(0xFF13425E);
 const secondaryBGColor = Color(0xFF246A98);
